@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hannath Sajad - Computer Science Engineering portfolio">
+    <title>Hannath Sajad | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header" id="home">
+        <nav class="navbar" aria-label="Main navigation">
+    <a class="logo" href="index.html">HS<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="internships.html">Internships</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Switch theme">☾</button>
+</nav>
+
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="eyebrow">COMPUTER SCIENCE &amp; ENGINEERING</p>
+                <h1 id="hero-title">Hi, I'm <span>Hannath Sajad.</span></h1>
+                <p class="hero-tagline">Building intelligent, data-driven systems with AI, IoT and full-stack development.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="projects.html">Explore My Work</a>
+                    <a class="btn btn-secondary" href="HANNATH_RESUME.pdf" download>Download Resume</a>
+                </div>
+                <div class="quick-links">
+                    <a href="https://github.com/HannathSajad" target="_blank" rel="noopener">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/in/hannath-sajad-499726296" target="_blank" rel="noopener">LinkedIn ↗</a>
+                    <a href="mailto:hannasajad@gmail.com">Email ↗</a>
+                </div>
+            </div>
+            <aside class="hero-card" aria-label="Profile highlights">
+                <div class="profile-mark">HS</div>
+                <p>AI • ML • IoT</p>
+                <strong>9.02 CGPA</strong>
+                <small>B.Tech CSE · 2023–2027</small>
+            </aside>
+        </section>
+    </header>
+
+    <main>
+        <section class="section about" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">01 — ABOUT ME</p>
+                <h2>Curious by nature.<br><span>Builder by choice.</span></h2>
+            </div>
+            <div class="about-grid">
+                <article>
+                    <p class="lead">I'm a Computer Science undergraduate pursuing a B.Tech with Honours in Computational Fundamentals of Machine Learning.</p>
+                    <p>I enjoy turning ideas into practical systems across AI, IoT, data science and full-stack development. Alongside technical work, I actively contribute to student communities, skill development initiatives and technical event organization.</p>
+                </article>
+                <aside class="fact-panel">
+                    <div><span>Based in</span><strong>Thiruvananthapuram, India</strong></div>
+                    <div><span>Focus</span><strong>AI · ML · IoT · Web</strong></div>
+                    <div><span>Languages</span><strong>English · Malayalam</strong></div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">02 — SKILLS</p>
+                <h2>Tools I use to <span>solve problems.</span></h2>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-box">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Python</li><li>Java</li><li>C</li><li>JavaScript</li>
+                    </ul>
+                </article>
+                <article class="skill-box">
+                    <h3>AI &amp; Data</h3>
+                    <ul>
+                        <li>Machine Learning</li><li>AI</li><li>Data Science</li><li>LLM Workflows</li>
+                    </ul>
+                </article>
+                <article class="skill-box">
+                    <h3>Core CS</h3>
+                    <ul>
+                        <li>Data Structures</li><li>DBMS</li><li>Problem Solving</li><li>Communication</li>
+                    </ul>
+                </article>
+                <article class="skill-box">
+                    <h3>Development</h3>
+                    <ul>
+                        <li>Full-Stack Development</li><li>REST APIs</li><li>IoT</li><li>AWS</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section projects-section" id="projects">
+            <div class="section-heading heading-row">
+                <div>
+                    <p class="eyebrow">03 — PROJECTS</p>
+                    <h2>Selected <span>work.</span></h2>
+                </div>
+                <div class="filter-wrap" aria-label="Project filters">
+                    <button class="filter-btn active" data-filter="All">All</button>
+                    <button class="filter-btn" data-filter="AI">AI</button>
+                    <button class="filter-btn" data-filter="IoT">IoT</button>
+                    <button class="filter-btn" data-filter="Hardware">Hardware</button>
+                </div>
+            </div>
+            <div class="project-grid" id="projectGrid" aria-live="polite"></div>
+        </section>
+
+        <section class="section" id="experience">
+            <div class="section-heading">
+                <p class="eyebrow">04 — INTERNSHIPS</p>
+                <h2>Learning through <span>real work.</span></h2>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <caption>Internship history</caption>
+                    <thead>
+                        <tr><th>Organisation</th><th>Role</th><th>Duration</th><th>Description</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ICT Academy of Kerala</td>
+                            <td>Full Stack Development Intern</td>
+                            <td>Dec 2024 – Jan 2025</td>
+                            <td>Developed scalable web applications using the MERN stack, responsive frontends, REST APIs, authentication and database integration.</td>
+                        </tr>
+                        <tr>
+                            <td>Intel Unnati Program</td>
+                            <td>AI &amp; Solution Design Intern</td>
+                            <td>May 2024 – Jul 2024</td>
+                            <td>Designed AI-driven workflow automation solutions, analyzed datasets and contributed to model development and technical evaluation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section" id="education">
+            <div class="section-heading">
+                <p class="eyebrow">05 — EDUCATION</p>
+                <h2>Academic <span>journey.</span></h2>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <caption>Education history</caption>
+                    <thead>
+                        <tr><th>Institution</th><th>Degree / Qualification</th><th>Duration</th><th>Grade</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mar Baselios College of Engineering and Technology (Autonomous)</td>
+                            <td>B.Tech. Computer Science &amp; Engineering</td>
+                            <td>Sep 2023 – Jan 2027</td>
+                            <td>CGPA 9.02 / 10</td>
+                        </tr>
+                        <tr>
+                            <td>Jyothis Central School, Kazhakootam</td>
+                            <td>12th in CBSE</td>
+                            <td>Mar 2023</td>
+                            <td>94 / 100</td>
+                        </tr>
+                        <tr>
+                            <td>Jyothis Central School, Trivandrum</td>
+                            <td>10th in CBSE</td>
+                            <td>Mar 2020</td>
+                            <td>94 / 100</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section extras">
+            <article>
+                <p class="eyebrow">CERTIFICATIONS</p>
+                <h3>Continuous learning</h3>
+                <ol class="cert-list">
+                    <li>Deep Learning — NPTEL (IIT Ropar)</li>
+                    <li>Introduction to Large Language Model — NPTEL (IIT Madras)</li>
+                    <li>Artificial Intelligence Primer — Infosys Springboard</li>
+                    <li>From Learner to Builder: Become an AI Agent Architect — IBM SkillsBuild</li>
+                    <li>GenAI Powered Data Analytics Job Simulation — TATA</li>
+                </ol>
+            </article>
+            <aside>
+                <p class="eyebrow">LEADERSHIP &amp; AWARDS</p>
+                <h3>Beyond the classroom</h3>
+                <ul class="plain-list">
+                    <li>Co-Lead – Skill Development, Catalyst – Mar Baselios IEDC</li>
+                    <li>Event Organizer – CSI SB MBCET</li>
+                    <li>Student Placement Coordinator – MBCET</li>
+                    <li>Aditya Birla Capital Scholarship</li>
+                    <li>Best Student Discipline Award</li>
+                    <li>National and State Level SIP Abacus Prodigy — 2nd Runner Up</li>
+                </ul>
+            </aside>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="contact-card">
+                <div>
+                    <p class="eyebrow">06 — CONTACT</p>
+                    <h2>Let's build something <span>meaningful.</span></h2>
+                    <p>Have an opportunity, project idea or collaboration in mind? Send me a message.</p>
+                    <div class="contact-links">
+                        <a href="mailto:hannasajad@gmail.com">hannasajad@gmail.com</a>
+                        <a href="tel:+918921022045">+91 89210 22045</a>
+                        <a href="HANNATH_RESUME.pdf" download>Download Resume</a>
+                    </div>
+                </div>
+                <form id="contactForm" novalidate>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name">
+                    <small class="error" id="nameError"></small>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+                    <small class="error" id="emailError"></small>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me about your idea..."></textarea>
+                    <small class="error" id="messageError"></small>
+
+                    <button class="btn btn-primary" type="submit">Send Message</button>
+                    <p class="form-status" id="formStatus" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <button class="to-top" id="toTop" aria-label="Scroll to top">↑</button>
+
+    <footer>
+        <p>© <span id="year"></span> Hannath Sajad. Built with semantic HTML5, CSS3 &amp; Vanilla JavaScript.</p>
+        <p><a href="#home">Back to top ↑</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
