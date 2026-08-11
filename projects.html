@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hannath Sajad - Projects">
+    <title>Projects | Hannath Sajad</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header page-header">
+<nav class="navbar" aria-label="Main navigation">
+    <a class="logo" href="index.html">HS<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="internships.html">Internships</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Switch theme">☾</button>
+</nav>
+<div class="page-hero">
+    <p class="eyebrow">HANNATH SAJAD · PORTFOLIO</p>
+    <h1>Projects</h1>
+</div>
+</header>
+<main>
+
+<section class="section projects-section">
+    <div class="heading-row section-heading">
+        <div><p class="eyebrow">SELECTED WORK</p><h2>Projects <span>portfolio.</span></h2></div>
+        <div class="filter-wrap">
+            <button class="filter-btn active" data-filter="All">All</button>
+            <button class="filter-btn" data-filter="AI">AI</button>
+            <button class="filter-btn" data-filter="IoT">IoT</button>
+            <button class="filter-btn" data-filter="Hardware">Hardware</button>
+        </div>
+    </div>
+    <div class="project-grid" id="projectGrid" aria-live="polite"></div>
+</section>
+
+</main>
+<footer>
+    <p>© <span id="year"></span> Hannath Sajad. Built with semantic HTML5, CSS3 &amp; Vanilla JavaScript.</p>
+    <p><a href="index.html">Home</a></p>
+</footer>
+<button class="to-top" id="toTop" aria-label="Scroll to top">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>

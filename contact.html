@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hannath Sajad - Contact">
+    <title>Contact | Hannath Sajad</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header page-header">
+<nav class="navbar" aria-label="Main navigation">
+    <a class="logo" href="index.html">HS<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="internships.html">Internships</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Switch theme">☾</button>
+</nav>
+<div class="page-hero">
+    <p class="eyebrow">HANNATH SAJAD · PORTFOLIO</p>
+    <h1>Contact</h1>
+</div>
+</header>
+<main>
+
+<section class="section contact">
+<div class="contact-card">
+<div>
+<p class="eyebrow">GET IN TOUCH</p>
+<h2>Let's build something <span>meaningful.</span></h2>
+<p>Have an opportunity, project idea or collaboration in mind? Send me a message.</p>
+<div class="contact-links">
+<a href="mailto:hannasajad@gmail.com">hannasajad@gmail.com</a>
+<a href="tel:+918921022045">+91 89210 22045</a>
+<a href="HANNATH_RESUME.pdf" download>Download Resume</a>
+</div>
+</div>
+<form id="contactForm" novalidate>
+<label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name"><small class="error" id="nameError"></small>
+<label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com"><small class="error" id="emailError"></small>
+<label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell me about your idea..."></textarea><small class="error" id="messageError"></small>
+<button class="btn btn-primary" type="submit">Send Message</button><p class="form-status" id="formStatus"></p>
+</form>
+</div>
+</section>
+
+</main>
+<footer>
+    <p>© <span id="year"></span> Hannath Sajad. Built with semantic HTML5, CSS3 &amp; Vanilla JavaScript.</p>
+    <p><a href="index.html">Home</a></p>
+</footer>
+<button class="to-top" id="toTop" aria-label="Scroll to top">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>
